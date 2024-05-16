@@ -1,6 +1,10 @@
-# SDXL Pipeline for Lilypad and Docker 🐋
-Based on ComfyUI, the SDXL Pipeline modules for Lilypad allow you generate images on Lilypad using Stable Diffusion XL and related models.
+# Dynamic Modules 🐋
+Generalizing the way modules are called
 
+```
+lilypad run github.com/arsen3d/lilypad-module-dynamic -i image=lilypadnetwork/lilysay:latest -i cmd=hello dynamic modules
+```
+# Ignore the rest. 
 They supports both the Refiner and Base versions of SDXL v0.9 and v1.0.
 
 # Usage
