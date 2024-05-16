@@ -19,7 +19,7 @@
                 "Params": {
                 "Entrypoint": null,
                 "EnvironmentVariables": [
-                    "cmd={{.cmd}}"
+                    "cmd={{.cmd}}",
                     {{ if .Prompt }}"{{ subst "PROMPT=%s" .Prompt }}",{{ end }}
                     {{ if .Seed }}"{{ subst "SEED=%s" .Seed }}",{{ end }}
                     {{ if .Steps }}"{{ subst "STEPS=%s" .Steps }}",{{ end }}
